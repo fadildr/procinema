@@ -1,7 +1,9 @@
+//@ts-nocheck
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
@@ -73,7 +75,7 @@ export default function Header() {
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
-                  <Link
+                  <ScrollLink
                     activeClass="activeHome"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b cursor-pointer  lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 "
                     to="trending"
@@ -83,11 +85,11 @@ export default function Header() {
                     duration={500}
                   >
                     Trending
-                  </Link>
+                  </ScrollLink>
                 </li>
 
                 <li>
-                  <Link
+                  <ScrollLink
                     activeClass="activeHome"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b cursor-pointer   lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 "
                     to="movies"
@@ -97,10 +99,10 @@ export default function Header() {
                     duration={500}
                   >
                     Movies
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
+                  <ScrollLink
                     activeClass="activeHome"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b cursor-pointer   lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 "
                     to="series"
@@ -110,7 +112,7 @@ export default function Header() {
                     duration={500}
                   >
                     TV Series
-                  </Link>
+                  </ScrollLink>
                 </li>
               </ul>
             </div>

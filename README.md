@@ -1,4 +1,4 @@
-# [Proscene (Website Movie)](link-demo)
+# [Procinema (Website Movie)](link-demo)
 
 ![Image Banner](src/assets/images/banner.jpeg)
 
@@ -35,7 +35,7 @@ git clone https://github.com/fadildr/procinema.git
 2. Navigate to the project's directory:
 
 ```bash
-cd proscene
+cd procinema
 ```
 
 3. Install dependencies:
@@ -96,7 +96,7 @@ In the project directory, you can run the following scripts:
 The project structure follows a conventional React.js setup:
 
 ```
-proscene/
+procinema/
   ├── public/                  # Public assets
   ├── src/                     # Application source code
   │   ├── assets/              # Assets for font and image
