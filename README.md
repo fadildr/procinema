@@ -1,4 +1,4 @@
-# [Procinema (Website Movie)](link-demo)
+# [Procinema (Website Movie)](https://procinema.vercel.app/)
 
 ![Image Banner](src/assets/images/banner.jpeg)
 
@@ -15,7 +15,7 @@
 
 ## Demo
 
-Check out the [live demo](link-demo) of this project.
+Check out the [live demo](https://procinema.vercel.app/) of this project.
 
 ## Requirements
 
